@@ -23,6 +23,8 @@ An Microsoft Excel spreadsheet was the basis for the database with the columns:
 
 After normalization to Boyce-Codd Normal Form, the schema was converted into two database tables. The logical design is as follows:
 
+![Database schema with an Employee table and Company Industry table](schema.png)
+
 ### Data Migration Process
 
 The order to create tables was CompanyIndustry then Employee, due to the foreign key in the Employee table. Then the data was loaded using SQL scripts from the Excel spreadsheet.
